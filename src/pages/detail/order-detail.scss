@@ -1,0 +1,18 @@
+
+.position_item {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+}
+
+.position_avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.position_title {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
