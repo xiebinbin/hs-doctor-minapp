@@ -1,3 +1,3 @@
-export default definePageConfig({
-  navigationBarTitleText: '首页'
+definePageConfig({
+  navigationBarTitleText: '预约看板'
 })

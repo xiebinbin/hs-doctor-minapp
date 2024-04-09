@@ -1,0 +1,64 @@
+$primary-color: #0369A1;
+$border-radius-md: 30px;
+$primary-font-size: 30px;
+$primary-sub-title-weight: 400;
+
+@mixin text-ellipsis {
+  overflow: hidden;
+  /*文本不会换行*/
+  white-space: nowrap;
+  /*当文本溢出包含元素时，以省略号表示超出的文本*/
+  text-overflow: ellipsis;
+}
+
+page {
+  --button-small-height: 50px;
+  --button-small-font-size: 20px;
+  --button-small-border-radius: 10px;
+  --button-small-min-width: 60px;
+
+  --button-normal-height: 70px;
+  --button-normal-font-size: 28px;
+  --button-normal-border-radius: 10px;
+  --button-normal-min-width: 40px;
+
+  --field-text-area-min-heigh: 20px;
+  --field-font-size: 30px;
+  --field-error-message-text-font-size: 20px;
+  --button-primary-background-color: #0369A1;
+  // --field-text-area-min-height: 30px;
+  --field-word-limit-font-size: 20px;
+  --field-word-limit-line-height: 30px;
+
+  --search-padding: 20px;
+  --search-action-padding: 10px;
+  --search-input-height: 40px;
+  --search-label-font-size: 20px;
+
+  // 分页
+  --pagination-font-size: $primary-font-size;
+  --pagination-prev-next-padding: 10px;
+
+  //
+  --tree-select-font-size: $primary-font-size;
+  --tree-select-item-height: 70px;
+  --sidebar-selected-border-color: #0369A1;
+
+  --radio-size: 50px;
+
+  --tab-font-size: 14px;
+  --dropdown-menu-height: 50px;
+  --dropdown-menu-title-font-size: 14px;
+  --dropdown-menu-title-padding: '0 20px';
+  --dropdown-menu-title-line-height: 30px;
+}
+
+
+.button_item {
+  width: 90%;
+  height: 80px;
+  font-size: 30px;
+  margin: 10px;
+  border-radius: 40px;
+  align-self: center;
+}
